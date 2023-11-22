@@ -1,0 +1,49 @@
+Desafio 01
+
+Você é analista de dados em uma grande rede de fastfood. Como um ótimo profissional, seu líder solicitou que você desenvolvesse um algoritmo de Machine Learning para prever o valor anual de uma franquia com base no investimento inicial.
+Fala os seguintes passos:
+
+arquivo: slr12.csv
+
+1. Carregue as bibliotecas: Pandas, Numpy, Scikit Learn, Matplotlib e Seaborn;
+2. Carregue a base de dados para um dataframe;
+3. Faça uma análise exploratória dos dados, utilize os comandos head, tail, info e describe;
+4. Crie um gráfico boxplot para analisar o comportamento da variável de capital inicial;
+5. Crie um histograma com uma curva de densidade para analisar o comportamento da variável capital inicial;
+6. Gere um gráfico de dispersão entre as variáveis;
+7. Calcule o coeficiente de correlação entre as variáveis capital inicial e valor da franquia anual;
+8. Separe os dados em duas variáveis X e Y;
+9. Separe sua amostra em treino e teste, sendo que o tamanho do teste será de 20% e random_state igual a 42;
+10. Crie o modelo de regressão linear (modelo = LinearRegression);
+11. Treine o modelo utilizando o comando modelo.fit(X,Y);
+12. Faça um teste de previsão com os dados de teste;
+13. Modele a equação da reta, exibindo os coeficientes;
+14. Gere um gráfico de dispersão com os pontos reais e as previsões;
+15. Crie um deploy para que o usuário possa inserir um valor de investimento inicial, para que ele possa obter a previsão do valor anual da franquia.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Desafio 02
+
+Você trabalha como analista de dados no setor de engenharia de produto de uma empresa fabricante de freios automotivos. Sua missão é modelar um algoritmo de Machine Learning para prever a velocidade do veículo em função da distância para frenagem.
+
+arquivo: cars.csv
+
+0. Instale a biblioteca yellowbrick;
+1. Carregue as bibliotecas: Pandas, Numpy, Scikit Learn, Matplotlib, Seaborn e yellowbrick. (Observação: utilize o comando a seguir para importar a função ResidualsPlot from yellowbrick.regressor import ResidualsPlot);
+2. Carregue a base de dados para um dataframe;
+3. Faça uma análise exploratória dos dados, utilize os comandos head, tail, info e describe;
+4. Crie um gráfico boxplot para analisar o comportamento da variável de distância;
+5. Crie um histograma com uma curva de densidade para analisar o comportamento da variável distância;
+6. Gere um gráfico de dispersão entre as variáveis;
+7. Calcule o coeficiente de correlação entre as variáveis distância e velocidade;
+8. Separe os dados em duas variáveis X e Y;
+9. Separe sua amostra em treino e teste, sendo que o tamanho do teste será de 20% e random_state igual a 42;
+10. Crie o modelo de regressão linear (modelo = LinearRegression);
+11. Treine o modelo utilizando o comando modelo.fit(X,Y);
+12. Faça um teste de previsão com os dados de teste;
+13. Modele a equação da reta, exibindo os coeficientes;
+14. Gere um gráfico de dispersão com os pontos reais e as previsões;
+15. Crie um deploy para que o usuário possa inserir um valor da distância, para que ele possa obter a previsão da velocidade.
+16. Crie um gráfico para analisarmos os valores residuais;
